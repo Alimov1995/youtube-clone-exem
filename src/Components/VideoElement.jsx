@@ -46,7 +46,7 @@ const VideoElement = () => {
         <div className="flex flex-col lg:w-[calc(100%-350px)] xl:w-[calc(100%-400px)] px-4 py-3 lg:py-6 overflow-y-auto">
           <div className="h-[200px] md:h-[400px] lg:h-[400px] xl:h-[550px] ml-[-16px] lg:ml-0 mr-[-16px] lg:mr-0">
             <ReactPlayer
-              url={`https://youtu.be/LMHTKj_trr8${id}`}
+              url={`https://www.youtube.com/watch?v=${id}`}
               controls
               width="100%"
               height="100%"
